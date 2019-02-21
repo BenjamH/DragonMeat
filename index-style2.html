@@ -11,25 +11,25 @@ http://miradontsoa.com
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
   <!-- Page Title Here -->
-  <title>DragonMeat</title>
+  <title>Flux - A portfolio / onepage template</title>
 
   <!-- Meta -->
   <!-- Page Description Here -->
-  <meta name="description" content="Asian American Entertainment Company">
+  <meta name="description" content="A beautiful and creative portfolio template. It is mobile friend (responsive) and comes with smooth animations">
 
   <!-- Disable screen scaling-->
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
 
   <!-- Twitter Meta -->
-  <!-- <meta name="twitter:site" content="@eatdragonmeat">
-  <meta name="twitter:creator" content="@eatdragonmeat">
+  <meta name="twitter:site" content="@miradontsoa">
+  <meta name="twitter:creator" content="@miradontsoa">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Page Title">
   <meta name="twitter:description" content="Description of the page">
-  <meta name="twitter:image" content="/img/bg-default.jpg"> -->
+  <meta name="twitter:image" content="/img/bg-default.jpg">
 
   <!-- Facebook Meta -->
-  <!-- <meta property="og:url" content="your website url here">
+  <meta property="og:url" content="your website url here">
   <meta property="og:title" content="Page Title">
   <meta property="og:description" content="Description of the page">
   <meta property="og:type" content="website">
@@ -37,7 +37,7 @@ http://miradontsoa.com
   <meta property="og:image:secure_url" content="/img/bg-default.jpg">
   <meta property="og:image:type" content="image/jpg">
   <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630"> -->
+  <meta property="og:image:height" content="630">
 
   <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
   <!-- Web fonts and Web Icons -->
@@ -59,12 +59,12 @@ http://miradontsoa.com
   <link rel="stylesheet" href="./css/main.css">
 
   <!-- add alt layout here -->
-  <link rel="stylesheet" href="./css/style-default.css">
+  <link rel="stylesheet" href="./css/style-color2.css">
 
   <script src="./js/vendor/modernizr-2.7.1.min.js"></script>
 </head>
 
-<body class="body-page o-hidden">
+<body id="menu" class="body-page">
   <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -83,18 +83,18 @@ http://miradontsoa.com
     <!-- Begin of menu icon toggler -->
     <button class="navbar-toggler site-menu-icon" id="navMenuIcon">
       <!-- Available class : menu-icon-dot / menu-icon-thick /menu-icon-random -->
-      <!-- <span class="menu-icon menu-icon-normal">
+      <span class="menu-icon menu-icon-normal">
         <span class="bars">
           <span class="bar1"></span>
           <span class="bar2"></span>
           <span class="bar3"></span>
         </span>
-      </span> -->
+      </span>
     </button>
     <!-- End of menu icon toggler -->
 
     <!-- Begin of logo/brand -->
-    <!-- <a class="navbar-brand" href="./#">
+    <a class="navbar-brand" href="./#">
       <span class="logo">
         <img class="light-logo" src="img/logo.png" alt="Logo">
       </span>
@@ -102,7 +102,7 @@ http://miradontsoa.com
         <span class="line">Flux</span>
         <span class="line sub">Portfolio Template</span>
       </span>
-    </a> -->
+    </a>
     <!-- End of logo/brand -->
 
     <!-- begin of menu wrapper -->
@@ -122,25 +122,50 @@ http://miradontsoa.com
       <!-- End of top menu -->
 
       <!-- Begin of hamburger mainmenu menu -->
-      <!-- <nav class="navbar-mainmenu">
+      <nav class="navbar-mainmenu">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="./index.html#home">Home
+            <a class="nav-link" href="./index-style2.html#home">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./gallery.html">Works</a>
+            <a class="nav-link" href="./gallery-style2.html">Works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./item.html">Item</a>
+            <a class="nav-link" href="./item-style2.html">Item</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./demo.html">Demo</a>
           </li>
         </ul>
-      </nav> -->
+      </nav>
       <!-- End of hamburger mainmenu menu -->
+
+      <!-- Begin of sidebar nav menu params class: text-only / icon-only-->
+      <nav class="navbar-sidebar icon-only font-primary">
+        <ul class="navbar-nav" id="qmenu">
+          <li class="nav-item" data-menuanchor="about">
+            <a href="#about">
+              <i class="icon ion-home"></i>
+              <span class="txt">About</span>
+            </a>
+          </li>
+          <li class="nav-item" data-menuanchor="projects-featured">
+            <a href="#projects-featured">
+              <i class="icon ion-images"></i>
+              <span class="txt">Projects</span>
+            </a>
+          </li>
+          <li class="nav-item" data-menuanchor="contact">
+            <a href="#contact">
+              <i class="icon ion-android-call"></i>
+              <span class="txt">Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- End of sidebar nav menu -->
     </div>
     <!-- end of menu wrapper -->
 
@@ -149,11 +174,9 @@ http://miradontsoa.com
 
   <!-- BEGIN OF page cover -->
   <div class="page-cover" id="parallax-cover">
-    <!-- Cover Background -->
-    <div data-depth="0.2" class="cover-bg bg-img" data-image-src="img/bg-default.jpg"></div>
 
     <!-- Transluscent mask as filter -->
-    <div class="cover-bg-mask bg-color" data-bgcolor="rgba(2, 3, 10, 0.7)"></div>
+    <div class="cover-bg-mask bg-color" data-bgcolor="#1D1D1D"></div>
 
 
   </div>
@@ -171,46 +194,33 @@ http://miradontsoa.com
       <div class="section-wrapper fullwidth with-margin v-center">
         <!-- content -->
         <div class="section-content anim">
-          <div class="row justify-content-center">
+          <div class="row">
             <div class="col-12 col-lg-6 text-left">
-              
-                <!-- content -->
-                <div class="section-content center-vh anim">
-                  <!-- illustartion -->
-                  <div class="images text-center logo-container">
-                    <div class="img-frame img-black frame-small">
-                      <div class="img-1 shadow">
-                        <img class="img" src="img/dragonmeat_logo.png" alt="Image">
-                        <img class="img" src="img/dragonmeat_logo_text.png" alt="Image">
-                      </div>
-                        <a class="icon-btn" href="https://www.facebook.com/eatdragonmeat">
-                          <i class="icon ion-social-facebook"></i>
-                        </a>
-                     
-                          <a class="icon-btn" href="https://instagram.com/eatdragonmeat">
-                            <i class="icon ion-social-instagram"></i>
-                          </a>
-                  
-                    </div>
-                  </div>
-                </div>
+              <!-- title and description -->
+              <div class="title-desc">
+                <h1 class="display-4 display-title home-title anim-1">Hello,
+                  <br>
+                  <span class="text-lighter">We are&nbsp;</span>cool!</h1>
+                <p class="anim-2 home-desc">This is a Bootstrap 4 based template, helping you to build modern
+                  and beautiful websites</p>
+              </div>
 
               <!-- Action button -->
-              <!-- <div class="btns-action anim-3">
+              <div class="btns-action anim-3">
                 <a class="btn btn-underline btn-primary" href="#about">
                   <span class="text">About Us</span>
                 </a>
-              </div> -->
+              </div>
             </div>
 
           </div>
         </div>
 
         <!-- Arrows scroll down/up -->
-        <!-- <footer class="section-footer scrolldown">
-          <a id="home-scrolldown" class="down">
+        <footer class="section-footer scrolldown">
+          <a class="down">
             <span class="icon down"></span>
-          </a> -->
+          </a>
           <!--<span class="separator"></span>-->
           <!--<a class="up">
 				<span class="icon up"></span>
@@ -218,67 +228,75 @@ http://miradontsoa.com
         </footer>
       </div>
       <!-- End of section wrapper -->
-      <div class="row no-gutters home-down-stripe"></div>
     </div>
     <!-- End of home section -->
 
-    <!-- Begin of ABOUT section -->
-    <div class="section section-about fp-auto-height-responsive"
+    <!-- Begin of description section -->
+    <div class="section section-about fp-auto-height-responsive section-text-dark"
     data-section="about-feature-1">
-      <div class="section-cover-full fit bg-color"></div>
+      <div class="section-cover-full fit bg-color" data-bgcolor="rgb(240,240,240)"></div>
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth fullheight with-margin center-lg-v">
 
         <!-- content -->
         <div class="section-content anim">
           <div class="row  justify-content-between">
-            <div class="col-12 col-lg-12 center-v">
+            <div class="col-12 col-lg-5 text-left center-v">
               <div class="wrapper">
                 <!-- title and description -->
                 <div class="title-desc">
-                  <h2 class="display-4 display-title text-center anim-1">About</h2>
-                  <p class="anim-2 text-center">Company</p>
-                  <p class="anim-2 text-center">This describes what we do and what is our mission. At right you
+                  <h2 class="display-4 display-title anim-1">The best
+                    <span class="text-lighter">Startup</span>
+                  </h2>
+                  <p class="anim-2">This describes what we do and what is our mission. At right you
                     can see the awesome people behind. Lorem ipsum magicum dolor
                     sit amet, consectetur adipiscing elit. Maecenas a sem ultrices
                     neque vehicula fermentum a sit amet nulla.
                   </p>
-                  <p class="anim-2 text-center">Vision</p>
-                  <p class="anim-2 text-center">This describes what we do and what is our mission. At right you
-                    can see the awesome people behind. Lorem ipsum magicum dolor
-                    sit amet, consectetur adipiscing elit. Maecenas a sem ultrices
-                    neque vehicula fermentum a sit amet nulla.
-                  </p>
-                  <p class="anim-2 text-center">Mission</p>
-                  <p class="anim-2 text-center">This describes what we do and what is our mission. At right you
-                    can see the awesome people behind. Lorem ipsum magicum dolor
-                    sit amet, consectetur adipiscing elit. Maecenas a sem ultrices
-                    neque vehicula fermentum a sit amet nulla.
-                  </p>
-              </div>              
+                </div>
+
+                <!-- Action button -->
+                <div class="btns-action anim-3">
+                  <a class="btn btn-underline btn-primary" href="#services">
+                    <span class="text">Services</span>
+                  </a>
+                </div>
+              </div>
             </div>
-        </div>
-        </div>
+
+            <div class="col-12 col-lg-6">
+              <!-- content -->
+              <div class="section-content center-vh anim">
+                <!-- illustartion -->
+                <div class="images text-center">
+                  <div class="img-frame img-black frame-small">
+                    <div class="img-1 shadow">
+                      <img class="img" src="img/items/laptop.png" alt="Image">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
 
         <!-- Arrows scroll down/up -->
         <footer class="section-footer scrolldown">
-          <a id="about-scrolldown" class="down">
+          <a class="down">
             <span class="icon down"></span>
           </a>
           <span class="separator"></span>
-          <a id="about-scrollup" class="up">
+          <a class="up">
             <span class="icon up"></span>
           </a>
         </footer>
       </div>
       <!-- End of section wrapper -->
-      <div class="row no-gutters about-up-stripe"></div>
-      <div class="row no-gutters about-down-stripe"></div>
     </div>
     <!-- End of description section -->
     <!-- Begin of description with team slider section -->
-    <div class="section section-team fp-auto-height-responsive " data-section="about">
+    <div class="section section-about fp-auto-height-responsive " data-section="about">
 
       <!-- Begin of section wrapper -->
       <div class="section-wrapper fullwidth fullheight center-lg-v with-margin margin-topbottom">
@@ -286,12 +304,20 @@ http://miradontsoa.com
         <!-- content -->
         <div class="section-content fullwidth anim">
           <div class="row">
-            <div class="col-12 col-md-5 col-lg-12 text-left center-v">
+            <div class="col-12 col-md-5 text-left center-v">
               <div class="wrapper">
                 <!-- title and description -->
                 <div class="title-desc">
-                  <h1 class="display-4 display-title anim-1">Meet the Team
+                  <h1 class="display-4 display-title anim-1">About
+                    <br>
+                    <span class="text-lighter">The Agency</span>
                   </h1>
+                  <h5 class="anim-2">We are a Digital agency</h5>
+                  <p class="anim-2">This describes what we do and what is our mission. At right you
+                    can see the awesome people behind. Lorem ipsum magicum dolor
+                    sit amet, consectetur adipiscing elit. Maecenas a sem ultrices
+                    neque vehicula fermentum a sit amet nulla.
+                  </p>
                 </div>
 
                 <!-- Action button -->
@@ -417,17 +443,15 @@ http://miradontsoa.com
 
         <!-- Arrows scroll down/up -->
         <footer class="section-footer scrolldown">
-            <a id="team-scrolldown" class="down">
-              <span class="icon down"></span>
-            </a>
-            <span class="separator"></span>
-            <a id="team-scrollup" class="up">
-              <span class="icon up"></span>
-            </a>
+          <a class="down">
+            <span class="icon down"></span>
+          </a>
+          <span class="separator"></span>
+          <a class="up">
+            <span class="icon up"></span>
+          </a>
         </footer>
       </div>
-      <div class="row no-gutters team-up-stripe"></div>
-      <div class="row no-gutters team-down-stripe"></div>
       <!-- End of section wrapper -->
     </div>
     <!-- End of description with team slider section -->
@@ -641,13 +665,13 @@ http://miradontsoa.com
               <div class="img bg-img" data-image-src="img/items/img-sample1.jpg"></div>
             </div>
             <div class="legend">
-              <a href="item.html#project_url">
+              <a href="item-style2.html#project_url">
                 <h3>Paper Design</h3>
                 <h4>Art / Print</h4>
                 <p>Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
                   Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.</p>
               </a>
-              <a class="btn btn-underline btn-primary" href="item.html#project_url">
+              <a class="btn btn-underline btn-primary" href="item-style2.html#project_url">
                 <span class="text">View Project</span>
               </a>
               <div class="icons">
@@ -670,13 +694,13 @@ http://miradontsoa.com
               <div class="img bg-img" data-image-src="img/items/img-sample2.jpg"></div>
             </div>
             <div class="legend">
-              <a href="item.html#project_url">
+              <a href="item-style2.html#project_url">
                 <h3>Fire Cloud</h3>
                 <h4>Photography / App</h4>
                 <p>Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
                   Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.</p>
               </a>
-              <a class="btn btn-underline btn-primary" href="item.html#project_url">
+              <a class="btn btn-underline btn-primary" href="item-style2.html#project_url">
                 <span class="text">View Project</span>
               </a>
               <div class="icons">
@@ -699,13 +723,13 @@ http://miradontsoa.com
               <div class="img bg-img" data-image-src="img/items/img-sample3.jpg"></div>
             </div>
             <div class="legend">
-              <a href="item.html#project_url">
+              <a href="item-style2.html#project_url">
                 <h3>Color Wall</h3>
                 <h4>Photography</h4>
                 <p>Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
                   Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla.</p>
               </a>
-              <a class="btn btn-underline btn-primary" href="item.html#project_url">
+              <a class="btn btn-underline btn-primary" href="item-style2.html#project_url">
                 <span class="text">View Project</span>
               </a>
               <div class="icons">
@@ -764,7 +788,7 @@ http://miradontsoa.com
                 <img class="" src="img/items/img-sample9-square.jpg" alt="An image">
               </div>
               <div class="media-body">
-                <a href="item.html#project_url">
+                <a href="item-style2.html#project_url">
                   <h4>Art / Design</h4>
                   <h3>Alpha Project</h3>
                 </a>
@@ -781,7 +805,7 @@ http://miradontsoa.com
                 <img class="" src="img/items/img-sample10-square.jpg" alt="An image">
               </div>
               <div class="media-body">
-                <a href="item.html#project_url">
+                <a href="item-style2.html#project_url">
                   <h4>Archi / Photo</h4>
                   <h3>Beta Project</h3>
                 </a>
@@ -798,7 +822,7 @@ http://miradontsoa.com
                 <img class="" src="img/items/img-sample11-square.jpg" alt="An image">
               </div>
               <div class="media-body">
-                <a href="item.html#project_url">
+                <a href="item-style2.html#project_url">
                   <h4>Website Design</h4>
                   <h3>Gamma Project</h3>
                 </a>
@@ -815,7 +839,7 @@ http://miradontsoa.com
                 <img class="" src="img/items/img-sample12-square.jpg" alt="An image">
               </div>
               <div class="media-body">
-                <a href="item.html#project_url">
+                <a href="item-style2.html#project_url">
                   <h4>Consulting</h4>
                   <h3>Alpha Structure</h3>
                 </a>
@@ -832,7 +856,7 @@ http://miradontsoa.com
                 <img class="" src="img/items/img-sample13-square.jpg" alt="An image">
               </div>
               <div class="media-body">
-                <a href="item.html#project_url">
+                <a href="item-style2.html#project_url">
                   <h4>Android / iPhone</h4>
                   <h3>Beta Coding</h3>
                 </a>
@@ -849,7 +873,7 @@ http://miradontsoa.com
                 <img class="" src="img/items/img-sample14-square.jpg" alt="An image">
               </div>
               <div class="media-body">
-                <a href="item.html#project_url">
+                <a href="item-style2.html#project_url">
                   <h4>Finance</h4>
                   <h3>Gamma Analytics</h3>
                 </a>
@@ -917,7 +941,7 @@ http://miradontsoa.com
                 <img class="" src="img/items/img-sample5.jpg" alt="An image">
               </div>
               <div class="media-body">
-                <a href="item.html#project_url">
+                <a href="item-style2.html#project_url">
                   <div class="head row">
                     <div class="col-sm-8">
                       <h3>Pacific Ocean</h3>
@@ -951,7 +975,7 @@ http://miradontsoa.com
                 <img class="" src="img/items/img-sample6.jpg" alt="An image">
               </div>
               <div class="media-body">
-                <a href="item.html#project_url">
+                <a href="item-style2.html#project_url">
                   <div class="head row">
                     <div class="col-sm-8">
                       <h3>Funny Birds</h3>
@@ -985,7 +1009,7 @@ http://miradontsoa.com
                 <img class="" src="img/items/img-sample7.jpg" alt="An image">
               </div>
               <div class="media-body">
-                <a href="item.html#project_url">
+                <a href="item-style2.html#project_url">
                   <div class="head row">
                     <div class="col-sm-8">
                       <h3>Zeta Office</h3>
@@ -1019,7 +1043,7 @@ http://miradontsoa.com
                 <img class="" src="img/items/img-sample8.jpg" alt="An image">
               </div>
               <div class="media-body">
-                <a href="item.html#project_url">
+                <a href="item-style2.html#project_url">
                   <div class="head row">
                     <div class="col-sm-8">
                       <h3>Canvas Tutorial</h3>
@@ -1053,7 +1077,7 @@ http://miradontsoa.com
                 <img class="" src="img/items/img-sample9.jpg" alt="An image">
               </div>
               <div class="media-body">
-                <a href="item.html#project_url">
+                <a href="item-style2.html#project_url">
                   <div class="head row">
                     <div class="col-sm-8">
                       <h3>Jacket Dress</h3>
@@ -1087,7 +1111,7 @@ http://miradontsoa.com
                 <img class="" src="img/items/img-sample10.jpg" alt="An image">
               </div>
               <div class="media-body">
-                <a href="item.html#project_url">
+                <a href="item-style2.html#project_url">
                   <div class="head row">
                     <div class="col-sm-8">
                       <h3>Table Bonzai</h3>
@@ -1378,20 +1402,19 @@ http://miradontsoa.com
   <footer id="site-footer" class="page-footer">
 
     <!-- Right content -->
-    <!-- <div class="footer-right">
+    <div class="footer-right">
       <ul class="social-text">
         <li>
-          <a class="icon-btn" href="https://www.facebook.com/eatdragonmeat">
-            <i class="icon ion-social-facebook"></i>
-          </a>
+          <a href="//facebook.com/miradontsoa">Fb</a>
         </li>
         <li>
-            <a class="icon-btn" href="https://instagram.com/eatdragonmeat">
-              <i class="icon ion-social-instagram"></i>
-            </a>
+          <a href="//twitter/miradontsoa">Tw</a>
+        </li>
+        <li>
+          <a href="//instagram.com/miradontsoa">In</a>
         </li>
       </ul>
-    </div> -->
+    </div>
   </footer>
   <!-- END OF site footer -->
 
