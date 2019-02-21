@@ -3512,7 +3512,7 @@ textarea {
 
 /* 4.2 Default settings .page-fullpage */
 .body-page {
-  position: relative; }
+  position: fixed; }
   .body-page .cursor-ball {
     position: absolute;
     z-index: 0;
