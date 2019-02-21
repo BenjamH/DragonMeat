@@ -1707,10 +1707,11 @@ textarea {
     border: 1px solid #ffffff; }
 
 .img-frame {
-  position: relative; }
+  position: relative;
+  padding: 15%; }
   @media (min-width: 768px) {
     .img-frame {
-      padding: 0; } }
+      padding: 15%; } }
   .img-frame img {
     width: 100%;
     height: auto; }
