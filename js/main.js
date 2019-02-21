@@ -6,6 +6,8 @@
 
 // Init all plugin when document is ready 
 $(document).on('ready', function () {
+	document.body.addEventListener('touchstart', function(e){ e.preventDefault(); });
+
 document.ontouchstart = function(e){ 
     e.preventDefault(); 
 }
