@@ -41,6 +41,10 @@ http://miradontsoa.com
 	font-family :
 	-  sans-serif Segoe UI / Roboto / Open sans / Helvetica with fallback to system-ui fonts
 */
+
+.o-hidden {
+  overflow: hidden;
+}
 .text-black {
   color: #1d1d1d !important; }
 
@@ -3168,9 +3172,8 @@ textarea {
     .menu-icon.menu-visible .bars .bar2 {
       width: 0px; }
 
-@media screen and (max-width: 1024px) {
   #fp-nav {
-    visibility: hidden; } }
+    visibility: hidden; } 
 
 #fp-nav.right {
   right: 14px;
