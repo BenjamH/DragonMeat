@@ -65,6 +65,27 @@ http://miradontsoa.com
 </head>
 
 <body class="body-page o-hidden">
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  h-100 d-flex flex-column justify-content-center my-0 modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"><img class="img-fluid trailer-title" src="img/dragonmeat_logo_text.png" alt="Image"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+           <div class="row justify-content-center">
+              <iframe id="iframe-trailer"src="https://player.vimeo.com/video/326500780" width="640" height="360"
+                frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
+              </iframe>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -180,8 +201,8 @@ http://miradontsoa.com
                   <div class="images text-center logo-container">
                     <div class="img-frame img-black frame-small">
                       <div class="img-1 shadow">
-                        <img class="img" src="img/dragonmeat_logo.png" alt="Image">
-                        <img class="img" src="img/dragonmeat_logo_text.png" alt="Image">
+                        <img class="img-fluid" src="img/dragonmeat_logo.png" alt="Image">
+                        <img class="img-fluid" src="img/dragonmeat_logo_text.png" alt="Image">
                       </div>
                         <a class="icon-btn" href="https://www.facebook.com/eatdragonmeat">
                           <i class="icon ion-social-facebook"></i>
@@ -190,8 +211,12 @@ http://miradontsoa.com
                           <a class="icon-btn" href="https://instagram.com/eatdragonmeat">
                             <i class="icon ion-social-instagram"></i>
                           </a>
-                  
+                                                        <!-- Button trigger modal -->
+<button type="button" id="btnTest" class="btn btn-trailer" data-toggle="modal" data-target="#exampleModal">
+    Trailer
+  </button>
                     </div>
+
                   </div>
                 </div>
 
@@ -204,6 +229,11 @@ http://miradontsoa.com
             </div>
 
           </div>
+
+
+
+
+         
         </div>
 
         <!-- Arrows scroll down/up -->
@@ -1405,6 +1435,8 @@ http://miradontsoa.com
   <script src="./js/vendor/scrolloverflow.min.js"></script>
   <script src="./js/vendor/all.js"></script>
   <script src="./js/particlejs/particles.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 
   <!-- Countdown script -->
   <script src="./js/jquery.downCount.js"></script>

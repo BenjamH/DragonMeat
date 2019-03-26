@@ -4649,6 +4649,9 @@ textarea {
   }
   .section-home .logo-container {
     max-width: 400px;
+    @media screen {
+      
+    }
   }
   .section-home .section-wrapper {
     width: 100%;
@@ -5972,3 +5975,20 @@ p {
 /* ipad and tablet */
 /* ipad and tablet */
 /* phone */
+
+.btn-trailer, .btn-trailer:hover, .btn-trailer:focus {
+  background-color: #b10002;
+  font-family: inherit;
+}
+
+.modal-header {
+  background: #f3c43e;
+}
+
+.modal-body {
+  background: #b10002
+}
+
+.trailer-title {
+  padding: 15px;
+}

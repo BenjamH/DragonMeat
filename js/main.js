@@ -451,6 +451,26 @@ document.ontouchstart = function(e){
 	// 	}
 	// });
 
+	$('#btnTest').click(function() {
+		$('#exampleModal').modal()
+		$('#exampleModal').trigger('focus')
+		$('#iframe-trailer').attr('src', vidSrc);
+
+	  });
+	var vidSrc = $('#iframe-trailer').attr('src');
+
+	$('#exampleModal').on('hidden.bs.modal', function () {
+		$('#iframe-trailer').attr('src',''); 
+	});
+
+
+// sets the source to nothing, stopping the video
+
+// sets it back to the correct link so that it reloads immediately on the next window open
+
+	
+
+
 
 	// 9. Page Loader : hide loader when all are loaded
 	contextWindow.on('load', function () {
