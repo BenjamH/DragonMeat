@@ -5986,9 +5986,17 @@ p {
 }
 
 .modal-body {
-  background: #b10002
+  background: black;
 }
 
 .trailer-title {
   padding: 15px;
+}
+
+.modal-trailer .close span {
+  position: absolute;
+  top: 3%;
+  right: 4%;
+  cursor: pointer;
+  color: white;
 }
